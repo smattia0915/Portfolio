@@ -368,6 +368,29 @@ input[type=submit]{
 
     justify-self: center;
 }
+video{
+    width: 800px;
+}
+.videoImg1{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    justify-self: center;
+}
+.videoP1{
+    grid-row: 2;
+    grid-column: 1/2;
+    justify-self: center;
+}
+.videoP2{
+    grid-row: 2;
+    grid-column: 2/3;
+    justify-self: center;
+}
+.videoP3{
+    grid-row: 2;
+    grid-column: 3/4;
+    justify-self: center;
+}
 .black{
     position: absolute;
     top: 0;
